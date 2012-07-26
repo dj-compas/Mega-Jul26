@@ -53,12 +53,12 @@
 
 -(void)startWalk
 {
-	NSTimeInterval duration = 0.8;
+	NSTimeInterval duration = 0.4;
 	met.animationDuration = duration;
 	met.animationRepeatCount = 1;
 	met.animationImages = [NSArray arrayWithObjects:
 						   [UIImage imageNamed:@"enemy2.png"],
-						   [UIImage imageNamed:@"enemy3.png"],
+						   /*[UIImage imageNamed:@"enemy3.png"],*/
 						   nil];
 	[met startAnimating];
 	
@@ -67,6 +67,7 @@
 
 -(void)walkCycle
 {
+	[met stopAnimating];
 	NSTimeInterval walkCycleDuration = 0.4;
 	met.animationDuration = walkCycleDuration;
 	met.animationRepeatCount = walkRepeat;
