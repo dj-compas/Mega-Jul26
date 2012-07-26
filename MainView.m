@@ -161,6 +161,7 @@
 -(void)swiped:(UISwipeGestureRecognizer *) s
 {
 	//NSLog(@"direction: %@", s);
+	NSLog(mega.wasHit ? @"hit!" : @"not hit");
 	if (!running && s.direction == UISwipeGestureRecognizerDirectionRight)
 	{
 		[mega startRun];
@@ -176,7 +177,7 @@
 		enemy.autoAnimate = NO;
 	}
 	
-	if (s.direction == UISwipeGestureRecognizerDirectionUp)
+	if (s.direction == UISwipeGestureRecognizerDirectionUp && !mega.wasHit)
 	{
 		[mega startJump];
 		[self animateJumpUp];
@@ -213,6 +214,8 @@
 						 if (finished)
 						 {
 							 floorSpeed = 3;
+							 
+							 if(!mega.wasHit)
 							 [self checkRunning];
 						 }
 					 }
@@ -221,12 +224,14 @@
 
 -(void)checkRunning
 {
+	
 	if (!running)
 	{
 		[mega stopJump];
 	}
 	else if (running) {
 		[mega startRun];
+		mega.wasHit = NO;
 	}
 }
 

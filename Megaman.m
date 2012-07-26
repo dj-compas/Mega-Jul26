@@ -10,6 +10,7 @@
 #import "MainView.h"
 
 @implementation Megaman
+@synthesize wasHit;
 
 - (id)initWithFrame:(CGRect)frame parentView:(UIView *)par
 {
@@ -18,6 +19,7 @@
         // Initialization code
 		self.backgroundColor = [UIColor clearColor];
 		parent = par;
+		wasHit = NO;
 		
 		rockman = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"mega_frame_stand.png"]];
 		
@@ -62,6 +64,7 @@
 
 -(void)startHit
 {
+	wasHit = YES;
 	[rockman stopAnimating];
 	
 	NSTimeInterval duration = .7;

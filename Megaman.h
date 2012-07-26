@@ -12,6 +12,7 @@
 {
 	UIImageView *rockman;
 	UIView *parent;
+	//BOOL wasHit;
 }
 
 -(void)startRun;
@@ -21,5 +22,7 @@
 -(void)startHit;
 
 - (id)initWithFrame:(CGRect)frame parentView:(UIView *)parent;
+
+@property (nonatomic, assign) BOOL wasHit;
 
 @end
