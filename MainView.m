@@ -161,7 +161,7 @@
 -(void)swiped:(UISwipeGestureRecognizer *) s
 {
 	//NSLog(@"direction: %@", s);
-	NSLog(mega.wasHit ? @"hit!" : @"not hit");
+	//NSLog(mega.wasHit ? @"hit!" : @"not hit");
 	if (!running && s.direction == UISwipeGestureRecognizerDirectionRight)
 	{
 		[mega startRun];
