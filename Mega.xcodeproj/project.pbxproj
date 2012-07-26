@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C66AB22815BF973E008BCEDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66AB22715BF973E008BCEDC /* UIKit.framework */; };
+		C66AB22A15BF973E008BCEDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66AB22915BF973E008BCEDC /* Foundation.framework */; };
+		C66AB22C15BF973E008BCEDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66AB22B15BF973E008BCEDC /* CoreGraphics.framework */; };
+		C66AB23215BF973E008BCEDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C66AB23015BF973E008BCEDC /* InfoPlist.strings */; };
+		C66AB23415BF973E008BCEDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB23315BF973E008BCEDC /* main.m */; };
+		C66AB23815BF973E008BCEDC /* MegaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB23715BF973E008BCEDC /* MegaAppDelegate.m */; };
+		C66AB23F15BF97F8008BCEDC /* megaman_megaman_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB23E15BF97F8008BCEDC /* megaman_megaman_sheet.png */; };
+		C66AB24215BFA03C008BCEDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB24115BFA03C008BCEDC /* ViewController.m */; };
+		C66AB24515BFA1FD008BCEDC /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB24415BFA1FD008BCEDC /* MainView.m */; };
+		C66AB24C15BFA436008BCEDC /* Megaman.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB24B15BFA436008BCEDC /* Megaman.m */; };
+		C66AB25815C0338B008BCEDC /* mega_frame_run1.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB25415C0338B008BCEDC /* mega_frame_run1.png */; };
+		C66AB25915C0338B008BCEDC /* mega_frame_run2.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB25515C0338B008BCEDC /* mega_frame_run2.png */; };
+		C66AB25A15C0338B008BCEDC /* mega_frame_run3.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB25615C0338B008BCEDC /* mega_frame_run3.png */; };
+		C66AB25B15C0338B008BCEDC /* mega_frame_stand.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB25715C0338B008BCEDC /* mega_frame_stand.png */; };
+		C66AB25E15C033AC008BCEDC /* stage_floor_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB25D15C033AC008BCEDC /* stage_floor_tile.png */; };
+		C66AB26515C0B897008BCEDC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66AB26415C0B897008BCEDC /* QuartzCore.framework */; };
+		C66AB26B15C0E64F008BCEDC /* mega_frame_jump.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB26A15C0E64F008BCEDC /* mega_frame_jump.png */; };
+		C66AB27115C0F01A008BCEDC /* mega_frame_hit.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27015C0F01A008BCEDC /* mega_frame_hit.png */; };
+		C66AB27615C0F2C8008BCEDC /* mega_frame_flash.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27215C0F2C8008BCEDC /* mega_frame_flash.png */; };
+		C66AB27715C0F2C8008BCEDC /* mega_frame_flash1.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27315C0F2C8008BCEDC /* mega_frame_flash1.png */; };
+		C66AB27815C0F2C8008BCEDC /* mega_frame_flash2.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27415C0F2C8008BCEDC /* mega_frame_flash2.png */; };
+		C66AB27915C0F2C8008BCEDC /* mega_frame_flash3.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27515C0F2C8008BCEDC /* mega_frame_flash3.png */; };
+		C66AB28215C0FD75008BCEDC /* enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27E15C0FD75008BCEDC /* enemy1.png */; };
+		C66AB28315C0FD75008BCEDC /* enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB27F15C0FD75008BCEDC /* enemy2.png */; };
+		C66AB28415C0FD75008BCEDC /* enemy3.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB28015C0FD75008BCEDC /* enemy3.png */; };
+		C66AB28515C0FD75008BCEDC /* enemy4.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB28115C0FD75008BCEDC /* enemy4.png */; };
+		C66AB28915C0FE57008BCEDC /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB28815C0FE57008BCEDC /* Enemy.m */; };
+		C66AB28F15C11F4D008BCEDC /* stage_background_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB28E15C11F4D008BCEDC /* stage_background_tile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C66AB22315BF973E008BCEDC /* Mega.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mega.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66AB22715BF973E008BCEDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C66AB22915BF973E008BCEDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C66AB22B15BF973E008BCEDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C66AB22F15BF973E008BCEDC /* Mega-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mega-Info.plist"; sourceTree = "<group>"; };
+		C66AB23115BF973E008BCEDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C66AB23315BF973E008BCEDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C66AB23515BF973E008BCEDC /* Mega-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mega-Prefix.pch"; sourceTree = "<group>"; };
+		C66AB23615BF973E008BCEDC /* MegaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MegaAppDelegate.h; sourceTree = "<group>"; };
+		C66AB23715BF973E008BCEDC /* MegaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MegaAppDelegate.m; sourceTree = "<group>"; };
+		C66AB23E15BF97F8008BCEDC /* megaman_megaman_sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = megaman_megaman_sheet.png; path = ../megaman_megaman_sheet.png; sourceTree = "<group>"; };
+		C66AB24015BFA03C008BCEDC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		C66AB24115BFA03C008BCEDC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		C66AB24315BFA1FD008BCEDC /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = ../MainView.h; sourceTree = "<group>"; };
+		C66AB24415BFA1FD008BCEDC /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = ../MainView.m; sourceTree = "<group>"; };
+		C66AB24A15BFA436008BCEDC /* Megaman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Megaman.h; sourceTree = SOURCE_ROOT; };
+		C66AB24B15BFA436008BCEDC /* Megaman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Megaman.m; sourceTree = SOURCE_ROOT; };
+		C66AB25415C0338B008BCEDC /* mega_frame_run1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_run1.png; path = ../frames/mega_frame_run1.png; sourceTree = "<group>"; };
+		C66AB25515C0338B008BCEDC /* mega_frame_run2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_run2.png; path = ../frames/mega_frame_run2.png; sourceTree = "<group>"; };
+		C66AB25615C0338B008BCEDC /* mega_frame_run3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_run3.png; path = ../frames/mega_frame_run3.png; sourceTree = "<group>"; };
+		C66AB25715C0338B008BCEDC /* mega_frame_stand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_stand.png; path = ../frames/mega_frame_stand.png; sourceTree = "<group>"; };
+		C66AB25D15C033AC008BCEDC /* stage_floor_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stage_floor_tile.png; sourceTree = "<group>"; };
+		C66AB26415C0B897008BCEDC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C66AB26A15C0E64F008BCEDC /* mega_frame_jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_jump.png; path = frames/mega_frame_jump.png; sourceTree = SOURCE_ROOT; };
+		C66AB27015C0F01A008BCEDC /* mega_frame_hit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_hit.png; path = frames/mega_frame_hit.png; sourceTree = SOURCE_ROOT; };
+		C66AB27215C0F2C8008BCEDC /* mega_frame_flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_flash.png; path = frames/mega_frame_flash.png; sourceTree = SOURCE_ROOT; };
+		C66AB27315C0F2C8008BCEDC /* mega_frame_flash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_flash1.png; path = frames/mega_frame_flash1.png; sourceTree = SOURCE_ROOT; };
+		C66AB27415C0F2C8008BCEDC /* mega_frame_flash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_flash2.png; path = frames/mega_frame_flash2.png; sourceTree = SOURCE_ROOT; };
+		C66AB27515C0F2C8008BCEDC /* mega_frame_flash3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mega_frame_flash3.png; path = frames/mega_frame_flash3.png; sourceTree = SOURCE_ROOT; };
+		C66AB27E15C0FD75008BCEDC /* enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy1.png; path = frames_enemy/enemy1.png; sourceTree = "<group>"; };
+		C66AB27F15C0FD75008BCEDC /* enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy2.png; path = frames_enemy/enemy2.png; sourceTree = "<group>"; };
+		C66AB28015C0FD75008BCEDC /* enemy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy3.png; path = frames_enemy/enemy3.png; sourceTree = "<group>"; };
+		C66AB28115C0FD75008BCEDC /* enemy4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enemy4.png; path = frames_enemy/enemy4.png; sourceTree = "<group>"; };
+		C66AB28715C0FE57008BCEDC /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../Enemy.h; sourceTree = "<group>"; };
+		C66AB28815C0FE57008BCEDC /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Enemy.m; path = ../Enemy.m; sourceTree = "<group>"; };
+		C66AB28E15C11F4D008BCEDC /* stage_background_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage_background_tile.png; path = stage_sprites/stage_background_tile.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C66AB22015BF973E008BCEDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66AB26515C0B897008BCEDC /* QuartzCore.framework in Frameworks */,
+				C66AB22815BF973E008BCEDC /* UIKit.framework in Frameworks */,
+				C66AB22A15BF973E008BCEDC /* Foundation.framework in Frameworks */,
+				C66AB22C15BF973E008BCEDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C66AB21815BF973D008BCEDC = {
+			isa = PBXGroup;
+			children = (
+				C66AB22D15BF973E008BCEDC /* Mega */,
+				C66AB22615BF973E008BCEDC /* Frameworks */,
+				C66AB22415BF973E008BCEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C66AB22415BF973E008BCEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB22315BF973E008BCEDC /* Mega.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C66AB22615BF973E008BCEDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB26415C0B897008BCEDC /* QuartzCore.framework */,
+				C66AB22715BF973E008BCEDC /* UIKit.framework */,
+				C66AB22915BF973E008BCEDC /* Foundation.framework */,
+				C66AB22B15BF973E008BCEDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C66AB22D15BF973E008BCEDC /* Mega */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB28715C0FE57008BCEDC /* Enemy.h */,
+				C66AB28815C0FE57008BCEDC /* Enemy.m */,
+				C66AB24A15BFA436008BCEDC /* Megaman.h */,
+				C66AB24B15BFA436008BCEDC /* Megaman.m */,
+				C66AB24315BFA1FD008BCEDC /* MainView.h */,
+				C66AB24415BFA1FD008BCEDC /* MainView.m */,
+				C66AB24015BFA03C008BCEDC /* ViewController.h */,
+				C66AB24115BFA03C008BCEDC /* ViewController.m */,
+				C66AB23615BF973E008BCEDC /* MegaAppDelegate.h */,
+				C66AB23715BF973E008BCEDC /* MegaAppDelegate.m */,
+				C66AB22E15BF973E008BCEDC /* Supporting Files */,
+			);
+			path = Mega;
+			sourceTree = "<group>";
+		};
+		C66AB22E15BF973E008BCEDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB28615C0FD7C008BCEDC /* enemy frames */,
+				C66AB25F15C033B8008BCEDC /* stage */,
+				C66AB25C15C03394008BCEDC /* frames */,
+				C66AB23E15BF97F8008BCEDC /* megaman_megaman_sheet.png */,
+				C66AB22F15BF973E008BCEDC /* Mega-Info.plist */,
+				C66AB23015BF973E008BCEDC /* InfoPlist.strings */,
+				C66AB23315BF973E008BCEDC /* main.m */,
+				C66AB23515BF973E008BCEDC /* Mega-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C66AB25C15C03394008BCEDC /* frames */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB27215C0F2C8008BCEDC /* mega_frame_flash.png */,
+				C66AB27315C0F2C8008BCEDC /* mega_frame_flash1.png */,
+				C66AB27415C0F2C8008BCEDC /* mega_frame_flash2.png */,
+				C66AB27515C0F2C8008BCEDC /* mega_frame_flash3.png */,
+				C66AB27015C0F01A008BCEDC /* mega_frame_hit.png */,
+				C66AB26A15C0E64F008BCEDC /* mega_frame_jump.png */,
+				C66AB25415C0338B008BCEDC /* mega_frame_run1.png */,
+				C66AB25515C0338B008BCEDC /* mega_frame_run2.png */,
+				C66AB25615C0338B008BCEDC /* mega_frame_run3.png */,
+				C66AB25715C0338B008BCEDC /* mega_frame_stand.png */,
+			);
+			name = frames;
+			sourceTree = "<group>";
+		};
+		C66AB25F15C033B8008BCEDC /* stage */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB28E15C11F4D008BCEDC /* stage_background_tile.png */,
+				C66AB25D15C033AC008BCEDC /* stage_floor_tile.png */,
+			);
+			name = stage;
+			sourceTree = "<group>";
+		};
+		C66AB28615C0FD7C008BCEDC /* enemy frames */ = {
+			isa = PBXGroup;
+			children = (
+				C66AB27E15C0FD75008BCEDC /* enemy1.png */,
+				C66AB27F15C0FD75008BCEDC /* enemy2.png */,
+				C66AB28015C0FD75008BCEDC /* enemy3.png */,
+				C66AB28115C0FD75008BCEDC /* enemy4.png */,
+			);
+			name = "enemy frames";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C66AB22215BF973E008BCEDC /* Mega */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C66AB23B15BF973E008BCEDC /* Build configuration list for PBXNativeTarget "Mega" */;
+			buildPhases = (
+				C66AB21F15BF973E008BCEDC /* Sources */,
+				C66AB22015BF973E008BCEDC /* Frameworks */,
+				C66AB22115BF973E008BCEDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mega;
+			productName = Mega;
+			productReference = C66AB22315BF973E008BCEDC /* Mega.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C66AB21A15BF973D008BCEDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mega;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C66AB21D15BF973D008BCEDC /* Build configuration list for PBXProject "Mega" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C66AB21815BF973D008BCEDC;
+			productRefGroup = C66AB22415BF973E008BCEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C66AB22215BF973E008BCEDC /* Mega */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C66AB22115BF973E008BCEDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66AB23215BF973E008BCEDC /* InfoPlist.strings in Resources */,
+				C66AB23F15BF97F8008BCEDC /* megaman_megaman_sheet.png in Resources */,
+				C66AB25815C0338B008BCEDC /* mega_frame_run1.png in Resources */,
+				C66AB25915C0338B008BCEDC /* mega_frame_run2.png in Resources */,
+				C66AB25A15C0338B008BCEDC /* mega_frame_run3.png in Resources */,
+				C66AB25B15C0338B008BCEDC /* mega_frame_stand.png in Resources */,
+				C66AB25E15C033AC008BCEDC /* stage_floor_tile.png in Resources */,
+				C66AB26B15C0E64F008BCEDC /* mega_frame_jump.png in Resources */,
+				C66AB27115C0F01A008BCEDC /* mega_frame_hit.png in Resources */,
+				C66AB27615C0F2C8008BCEDC /* mega_frame_flash.png in Resources */,
+				C66AB27715C0F2C8008BCEDC /* mega_frame_flash1.png in Resources */,
+				C66AB27815C0F2C8008BCEDC /* mega_frame_flash2.png in Resources */,
+				C66AB27915C0F2C8008BCEDC /* mega_frame_flash3.png in Resources */,
+				C66AB28215C0FD75008BCEDC /* enemy1.png in Resources */,
+				C66AB28315C0FD75008BCEDC /* enemy2.png in Resources */,
+				C66AB28415C0FD75008BCEDC /* enemy3.png in Resources */,
+				C66AB28515C0FD75008BCEDC /* enemy4.png in Resources */,
+				C66AB28F15C11F4D008BCEDC /* stage_background_tile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C66AB21F15BF973E008BCEDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C66AB23415BF973E008BCEDC /* main.m in Sources */,
+				C66AB23815BF973E008BCEDC /* MegaAppDelegate.m in Sources */,
+				C66AB24215BFA03C008BCEDC /* ViewController.m in Sources */,
+				C66AB24515BFA1FD008BCEDC /* MainView.m in Sources */,
+				C66AB24C15BFA436008BCEDC /* Megaman.m in Sources */,
+				C66AB28915C0FE57008BCEDC /* Enemy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C66AB23015BF973E008BCEDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C66AB23115BF973E008BCEDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C66AB23915BF973E008BCEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C66AB23A15BF973E008BCEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C66AB23C15BF973E008BCEDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega/Mega-Prefix.pch";
+				INFOPLIST_FILE = "Mega/Mega-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C66AB23D15BF973E008BCEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mega/Mega-Prefix.pch";
+				INFOPLIST_FILE = "Mega/Mega-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C66AB21D15BF973D008BCEDC /* Build configuration list for PBXProject "Mega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66AB23915BF973E008BCEDC /* Debug */,
+				C66AB23A15BF973E008BCEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C66AB23B15BF973E008BCEDC /* Build configuration list for PBXNativeTarget "Mega" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C66AB23C15BF973E008BCEDC /* Debug */,
+				C66AB23D15BF973E008BCEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C66AB21A15BF973D008BCEDC /* Project object */;
+}
