@@ -35,6 +35,8 @@
 		C66AB28515C0FD75008BCEDC /* enemy4.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB28115C0FD75008BCEDC /* enemy4.png */; };
 		C66AB28915C0FE57008BCEDC /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = C66AB28815C0FE57008BCEDC /* Enemy.m */; };
 		C66AB28F15C11F4D008BCEDC /* stage_background_tile.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB28E15C11F4D008BCEDC /* stage_background_tile.png */; };
+		C66AB29215C12FF4008BCEDC /* icon_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB29015C12FF4008BCEDC /* icon_retina.png */; };
+		C66AB29315C12FF4008BCEDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C66AB29115C12FF4008BCEDC /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +76,8 @@
 		C66AB28715C0FE57008BCEDC /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enemy.h; path = ../Enemy.h; sourceTree = "<group>"; };
 		C66AB28815C0FE57008BCEDC /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Enemy.m; path = ../Enemy.m; sourceTree = "<group>"; };
 		C66AB28E15C11F4D008BCEDC /* stage_background_tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stage_background_tile.png; path = stage_sprites/stage_background_tile.png; sourceTree = SOURCE_ROOT; };
+		C66AB29015C12FF4008BCEDC /* icon_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_retina.png; sourceTree = "<group>"; };
+		C66AB29115C12FF4008BCEDC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		C66AB21815BF973D008BCEDC = {
 			isa = PBXGroup;
 			children = (
+				C66AB29015C12FF4008BCEDC /* icon_retina.png */,
+				C66AB29115C12FF4008BCEDC /* icon.png */,
 				C66AB22D15BF973E008BCEDC /* Mega */,
 				C66AB22615BF973E008BCEDC /* Frameworks */,
 				C66AB22415BF973E008BCEDC /* Products */,
@@ -259,6 +265,8 @@
 				C66AB28415C0FD75008BCEDC /* enemy3.png in Resources */,
 				C66AB28515C0FD75008BCEDC /* enemy4.png in Resources */,
 				C66AB28F15C11F4D008BCEDC /* stage_background_tile.png in Resources */,
+				C66AB29215C12FF4008BCEDC /* icon_retina.png in Resources */,
+				C66AB29315C12FF4008BCEDC /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
